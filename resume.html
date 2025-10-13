@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>Resume – Suneeta</title> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .resume-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px;
+    }
+    .sidebar {
+      flex: 1 1 250px;
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .sidebar img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #ddd;
+    }
+    .main {
+      flex: 3 1 600px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #212529;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head> 
+<body> 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Suneeta</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="biodata.html">Bio-data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Resume Content -->
+  <div class="resume-container"> 
+    <!-- Sidebar -->
+    <aside class="sidebar"> 
+      <img src="pic.jpg" alt="Suneeta Photo">
+      <h2>Suneeta</h2>
+      <p>📍 Karatagi, Koppala</p>
+      <p>📱 8660512595</p>
+      <p>📧 <a href="mailto:suneetahosamani@gmail.com">suneetahosamani@gmail.com</a></p>
+      <p>🔗 <a href="https://github.com/">GitHub</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/">LinkedIn</a></p>
+    </aside> 
+    
+
+    <!-- Main Content -->
+    <main class="main"> 
+      <section> 
+        <h3>Education</h3> 
+        <p><strong>B.E. – Computer Science & Engineering</strong><br> 
+        VCET, Puttur<br> 
+        Aug 2022 – Present | CGPA: 9.0 / 10.0</p> 
+      </section> 
+
+      <section> 
+         <hr> 
+        <h3>Projects</h3> 
+        <ul> 
+          <li><strong>Food Expiry Tracker</strong> – Web app for tracking groceries and expiry notifications.</li> 
+          <li><strong>Smart Notes App</strong> – Cloud-based notes app with reminders & search.</li> 
+        </ul> 
+      </section> 
+
+      <section>
+        <hr> 
+        <h3>Certifications</h3> 
+        <ul>  
+          <li>Certified in Python, DSA, Web Development</li> 
+        </ul> 
+      
+        <hr>
+      <h4>Technical Skills</h4>
+      <ul class="text-start">
+        <li>C, C++, Java, Python, HTML, CSS, JS, SQL</li>
+        <li>React.js, Node.js, Firebase</li>
+        <li>Git, GitHub</li>
+        <li>MySQL, MongoDB (basic)</li>
+      </ul>
+      </section> 
+    </main> 
+  </div> 
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Suneeta. All rights reserved.
+  </footer>
+</body> 
+</html>
